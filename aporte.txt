@@ -1,0 +1,23 @@
+ACTUALIZACIÓN TECNOLÓGICA
+ACTIVIDAD 5 - PULL REQUEST
+
+DATOS DEL ESTUDIANTE
+
+Nombre:
+Carrera:
+Semestre:
+
+APORTE SOBRE GIT Y GITHUB
+
+1. Comando Git que considero más útil:
+Explicación:
+
+2. Diferencia entre origin y upstream:
+Respuesta:
+
+3. ¿Para qué sirve un Pull Request?
+Respuesta:
+
+4. Mencione un error que tuvo durante las prácticas:
+Error:
+Solución:
