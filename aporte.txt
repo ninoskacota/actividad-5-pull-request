@@ -9,8 +9,8 @@ Semestre: SEXTO
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil: Git status
+Explicación: Considero que git status es muy útil porque permite saber qué archivos fueron modificados, cuáles están preparados para ser confirmados y en qué rama me encuentro.
 
 2. Diferencia entre origin y upstream:
 Respuesta:
