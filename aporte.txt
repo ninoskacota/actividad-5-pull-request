@@ -13,7 +13,7 @@ APORTE SOBRE GIT Y GITHUB
 Explicación: Considero que git status es muy útil porque permite saber qué archivos fueron modificados, cuáles están preparados para ser confirmados y en qué rama me encuentro.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: Origin es el repositorio remoto que pertenece a mi Fork y donde envío mis cambios. Upstream es el repositorio original del proyecto, desde donde puedo obtener actualizaciones y mantener mi Fork sincronizado.
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
