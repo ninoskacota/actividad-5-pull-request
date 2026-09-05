@@ -16,7 +16,7 @@ Explicación: Considero que git status es muy útil porque permite saber qué ar
 Respuesta: Origin es el repositorio remoto que pertenece a mi Fork y donde envío mis cambios. Upstream es el repositorio original del proyecto, desde donde puedo obtener actualizaciones y mantener mi Fork sincronizado.
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Un Pull Request sirve para proponer cambios realizados en una rama para que sean revisados antes de incorporarlos a otra rama. Permite que otros colaboradores revisen el trabajo, hagan observaciones y aprueben los cambios.
 
 4. Mencione un error que tuvo durante las prácticas:
 Error:
