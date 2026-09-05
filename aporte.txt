@@ -19,5 +19,5 @@ Respuesta: Origin es el repositorio remoto que pertenece a mi Fork y donde enví
 Respuesta: Un Pull Request sirve para proponer cambios realizados en una rama para que sean revisados antes de incorporarlos a otra rama. Permite que otros colaboradores revisen el trabajo, hagan observaciones y aprueben los cambios.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Tuve un conflicto al trabajar con las ramas porque feature-datos y upstream/main tenían cambios diferentes en los mismos archivos. Los conflictos se presentaron en datosForking.txt y tecnologiasForking.txt.
+Solución: Revisé los conflictos, seleccioné y combiné correctamente los cambios necesarios, realicé el commit del merge y finalmente hice push. Después GitHub mostró que los cambios podían unirse correctamente.
