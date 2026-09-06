@@ -3,21 +3,21 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Leonardo Adrian Diaz Saavedra
+Carrera: ing. en sistemas
+Semestre: cuarto
 
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+Explicación: el git status pq permite ver en cualquier momento el estado del repositorio.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: Uso origin para publicar mis cambios y upstream para mantenerme actualizado con el proyecto original.
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Sirve para proponer que los cambios de una rama de mi Fork sean revisados por el responsable del repositorio principal antes de integrarse a main
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Al hacer el Pull Request de la Actividad 4, inicialmente trabajé en un repositorio que no correspondía a la actividad indicada.
+Solución: Verifiqué con mi auxiliar cuál era el repositorio correcto y repetí el proceso completo (Fork, clone, rama y commits) en el repositorio adecuado.
