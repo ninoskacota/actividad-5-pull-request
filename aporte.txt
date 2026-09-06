@@ -21,3 +21,4 @@ Respuesta:es proponer ohacer un cambio en un proyecto y decir que otros revisen 
 4. Mencione un error que tuvo durante las prácticas:olvidar colocar los commits indicados 
 Error:me olvide colocar los commits  o al poner git add 
 Solución:tuve que volver hacer los commits de nuevo de un principio y eliminar los que hice mal 
+5.Aporte: El uso de Forking Workflow permite colaborar en proyectos sin dañar  o malograr  el repositorio principal.
