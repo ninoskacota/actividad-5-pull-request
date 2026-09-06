@@ -16,8 +16,8 @@ Explicación: Ya que con git status podemos ver el estado en el que se encuentra
 Respuesta: En Git y plataformas como GitHub, "origin" es tu propia copia de un repositorio en el servidor, mientras que "upstream" es el repositorio original del cual hiciste una copia "fork"
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Un pull request (o solicitud de extracción) sirve para proponer y revisar cambios de código hechos en una rama antes de integrarlos a la rama principal de un proyecto
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: En una practica en clases no pude enlazar bien el repositorio de la auxi en upstream y me dio problemas en pushear la rama que se trabajo en la clase 
+Solución: No confiar en los links que pone la auxi en la guía de trabajo ya que se confunde de repositorios y no enlaza bien las ramas de trabajo
