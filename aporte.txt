@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre:Jhonatan Calderon Ordoñez 
+Carrera:Ingenieria de Sistemas 
+Semestre:2/2026
 
 APORTE SOBRE GIT Y GITHUB
 
