@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Erlan José Leon Arancibia
+Carrera: Ingeniería Informática
+Semestre: II/2026
 
 APORTE SOBRE GIT Y GITHUB
 
