@@ -9,11 +9,11 @@ Semestre: II/2026
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil: "git status"
+Explicación: Ya que con git status podemos ver el estado en el que se encuentra el repositorio para ver si hay cambios que se pueden haber efectuado sin tenerlo en cuenta, o en general los comandos que sirvan para ver los cambios que se realizaron durante el trabajo del repositorio
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: En Git y plataformas como GitHub, "origin" es tu propia copia de un repositorio en el servidor, mientras que "upstream" es el repositorio original del cual hiciste una copia "fork"
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
