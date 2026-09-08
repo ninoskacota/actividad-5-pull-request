@@ -25,3 +25,7 @@ Respuesta: este solicita proponer cambios realizados a traves de ramas de un For
 Error: este error -fatal: not a git repository (or any of the parent directories): .git- ; se me presento al ejecutar
        comandos en una carpeta equivocada la cual no pertenecia al proyecto
 Solución: la solucion fue volver a ingresar a la carpeta correcta en el cual se encontraba el repositorio 
+
+CONCLUSIONES:
+Esta practica ayuda en la importancia que se debe tener sobre los Forking Workflow en Git y GitHub, aprendiendo a trabajar
+con ramas secundarias y no directamente en el codigo principal y evitar problemas a largo plazo 
