@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Herlan Erwin Herrera Calizaya
+Carrera: Ingenieria Informatica
+Semestre: Quinto
 
 APORTE SOBRE GIT Y GITHUB
 
