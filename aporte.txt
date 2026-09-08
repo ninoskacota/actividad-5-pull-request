@@ -10,14 +10,18 @@ Semestre: Quinto
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+Explicación: en los personal todos los comandos de git tiene el mismo nivel de utilidad o 
+             dependiendo de la tarea o problema es especifico uno puede tener mas relevancia que el otro
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: que origin hace referencia a un repositorio propio en GitHub y upstream es la direccion  
+           verdadera del repositorio de un proyecto en el cual se este trabajando 
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: este solicita proponer cambios realizados a traves de ramas de un Fork para ser revisados y luego
+           luego ser integrados en la rama principal en el repositorio original
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: este error -fatal: not a git repository (or any of the parent directories): .git- ; se me presento al ejecutar
+       comandos en una carpeta equivocada la cual no pertenecia al proyecto
+Solución: la solucion fue volver a ingresar a la carpeta correcta en el cual se encontraba el repositorio 
