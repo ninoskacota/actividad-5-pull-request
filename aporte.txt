@@ -3,21 +3,24 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre:jhosmar ventura lima
+Carrera:ingenieria de sistemas
+Semestre:II/2026
 
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+Explicación:El comando `git commit -m "mensaje"` es el más útil porque permite registrar cada cambio realizado en el proyecto con una descripción clara. Esto crea un historial ordenado que facilita volver a versiones anteriores y entender la evolución del trabajo.
+
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta:`origin` es el nombre del repositorio **personal (Fork)** donde se guardan mis cambios.  
+`upstream` es el repositorio **principal del docente**, desde donde se originó el Fork y al cual se envían las propuestas mediante Pull Request.
+
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta:Sirve para **proponer cambios** realizados en mi Fork y solicitar que sean revisados e incorporados al repositorio principal. Es una forma de colaboración controlada que permite revisar, comentar y aprobar antes de integrar los cambios.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error:Intenté acceder a la carpeta `~/Desktop/ACTUALIZACION` y Git Bash mostraba “No such file or directory”.  
+Solución:Descubrí que la carpeta estaba dentro de **OneDrive**, por lo que debía usar `cd ~/OneDrive/Desktop/ACTUALIZACION`. Después de eso, los comandos funcionaron correctamente.
