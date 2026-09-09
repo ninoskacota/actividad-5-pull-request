@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Miranda Cabrera Angely
+Carrera: Ingenieria de Sistemas
+Semestre: Sexto Semestre
 
 APORTE SOBRE GIT Y GITHUB
 
