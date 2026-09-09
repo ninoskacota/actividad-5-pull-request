@@ -24,3 +24,4 @@ Error:
 Al crear una rama nueva con el comando "git switch -c", escribí mal el nombre por un error de tipeo, quedando distinto al que necesitaba usar.
 Solución:
 utilicé el comando "git branch -m nombre_incorrecto nombre_correcto" para renombrar la rama sin perder los cambios ni el historial, y luego continué el trabajo con normalidad.
+Ultima fecha de entrega:09/09/2026
