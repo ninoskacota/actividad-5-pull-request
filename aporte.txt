@@ -16,7 +16,7 @@ Explicación:El comando `git commit -m "mensaje"` es el más útil porque permit
 2. Diferencia entre origin y upstream:
 Respuesta:`origin` es el nombre del repositorio **personal (Fork)** donde se guardan mis cambios.  
 `upstream` es el repositorio **principal del docente**, desde donde se originó el Fork y al cual se envían las propuestas mediante Pull Request.
-
+ 
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:Sirve para **proponer cambios** realizados en mi Fork y solicitar que sean revisados e incorporados al repositorio principal. Es una forma de colaboración controlada que permite revisar, comentar y aprobar antes de integrar los cambios.
