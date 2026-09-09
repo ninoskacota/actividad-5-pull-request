@@ -3,21 +3,24 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Jhojan Jimmy Berdeja Pardo 
+Carrera: Ingenieía de Sistemas
+Semestre: cuarto semestre 
 
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
+gir status
 Explicación:
-
+Es el comando más útil porque permite saber en todo momento en qué rama estamos trabajando, qué archivos fueron modificados y si hay cambios listos para guardr (commit) o pendientes de publicar.
 2. Diferencia entre origin y upstream:
-Respuesta:
-
+Respuesta: 
+otigin es la conexión remot que apunta a nuestro propio Fork en GitHub, y la Upstream es la conexión remota que apunta al repositorio principal.
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
-
+Respuesta: 
+Un Pull Request sirve para proponer que los cambios realizados en una rama de nuestro Fork sean revisados por el responsable del repositorio principal, antes de ser incorporados menainte un Merge.
 4. Mencione un error que tuvo durante las prácticas:
 Error:
+Al crear una rama nueva con el comando "git switch -c", escribí mal el nombre por un error de tipeo, quedando distinto al que necesitaba usar.
 Solución:
+utilicé el comando "git branch -m nombre_incorrecto nombre_correcto" para renombrar la rama sin perder los cambios ni el historial, y luego continué el trabajo con normalidad.
