@@ -16,10 +16,8 @@ Explicación: git status permite comprobar el estado actual del repositorio y sa
 Respuesta: origin es el repositorio remoto asociado a mi Fork personal, mientras que upstream es el repositorio principal del proyecto.
 
 3. ¿Para qué sirve un Pull Request?
-
-3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Sirve para proponer cambios realizados en una rama de mi Fork para que sean revisados antes de incorporarlos al repositorio principal.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Tuve dificultades al trabajar con las ramas y los cambios del repositorio.
+Solución: Revisé la rama en la que estaba trabajando y utilicé los comandos de Git para comprobar el estado y realizar correctamente los cambios.
