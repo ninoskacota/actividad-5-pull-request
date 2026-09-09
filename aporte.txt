@@ -26,7 +26,13 @@ referencia al repositorio principal.
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
+Un Pull Request sirve para proponer los cambios realizados en una rama 
+y solicitar que sean revisados antes de incorporarlos a la rama 
+principal de un repositorio.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Al crear la rama de trabajo escribí por error "feacture-aporte"
+en lugar de "feature-aporte".
+Solución: Primero regresé a la rama main con git switch main, después 
+eliminé la rama creada incorrectamente con git branch -d feacture-aporte 
+y finalmente creé la rama correcta utilizando git switch -c feature-aporte.
