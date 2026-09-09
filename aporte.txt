@@ -7,7 +7,7 @@ Nombre:jhosmar ventura lima
 Carrera:ingenieria de sistemas
 Semestre:II/2026
 
-APORTE SOBRE GIT Y GITHUB
+APORTE SOBRE GIT Y GITHUB 
 
 1. Comando Git que considero más útil:
 Explicación:El comando `git commit -m "mensaje"` es el más útil porque permite registrar cada cambio realizado en el proyecto con una descripción clara. Esto crea un historial ordenado que facilita volver a versiones anteriores y entender la evolución del trabajo.
