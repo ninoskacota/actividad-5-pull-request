@@ -1,23 +1,45 @@
-ACTUALIZACIÓN TECNOLÓGICA
+﻿ACTUALIZACIÓN TECNOLÓGICA
 ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre:Ramirez David Moises 
+Carrera: Ingenieria Informatica
+Semestre:Sexto
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil:git status
+Explicación:Es el comando que más utilicé durante todas las prácticas, desde los primeros ejercicios de git init y git commit hasta el trabajo con ramas y Pull Requests. Su utilidad radica en que en cualquier momento me permite saber exactamente en qué estado se encuentra el repositorio: en qué rama estoy parado, si hay archivos modificados sin guardar (unstaged), si hay archivos ya preparados para el commit (staged), o si el árbol de trabajo está limpio. Antes de ejecutar git add, git commit o git push, siempre revisé con git status para evitar subir cambios incorrectos o incompletos. Fue especialmente importante durante la Actividad 4 (Forking Workflow) y la Actividad 5 (Pull Request), donde trabajar en la rama correcta (feature-perfil, feature-aporte) y confirmar que los archivos estuvieran realmente modificados antes de cada commit evitó errores de organización en el historial.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: Ambos son "remotes" (conexiones a repositorios remotos), pero apuntan a lugares distintos y cumplen roles diferentes dentro del Forking Workflow:
+
+origin apunta a mi propio Fork en GitHub (por ejemplo, usuario/actividad-forking). Es el repositorio remoto sobre el cual tengo permisos de escritura, y hacia donde envío mis cambios con git push. Se configura automáticamente cuando clono mi Fork con git clone.
+upstream apunta al repositorio original del cual hice el Fork (por ejemplo, ninoskacota/actividad-forking). No tengo permisos de escritura ahí; solo se usa para traer actualizaciones del proyecto principal hacia mi copia local, mediante comandos como git fetch upstream. Este remote no se configura automáticamente al clonar; hay que agregarlo manualmente con git remote add upstream <url>.
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta:Un Pull Request (PR) sirve para solicitar formalmente que los cambios realizados en una rama de mi Fork sean revisados por el responsable del repositorio principal, antes de ser incorporados (merge) a la rama main de dicho repositorio. No es una acción automática ni inmediata: crear un PR únicamente abre el proceso de revisión, no significa que los cambios ya fueron aceptados.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error 1 — Rechazo al hacer git push (rama desactualizada):
+Al intentar subir mis commits con git push, GitHub rechazó el envío con un mensaje indicando que mi rama local estaba desactualizada respecto a la remota (por ejemplo, porque había cambios en el remoto que yo no tenía localmente).
+Solución: Ejecuté git pull (o git fetch seguido de git merge) para traer primero los cambios remotos y actualizar mi rama local antes de volver a intentar el push.
+Error 2 — Conflicto de Merge:
+Al combinar cambios de dos ramas (o al hacer git pull), Git marcó un conflicto porque ambas versiones habían modificado la misma línea del mismo archivo, y no supo cuál conservar automáticamente.
+Solución: Abrí el archivo señalado, identifiqué las marcas <<<<<<<, ======= y >>>>>>> que Git agrega para mostrar ambas versiones en conflicto, elegí manualmente qué contenido dejar (o combiné ambos), guardé el archivo, y luego ejecuté git add sobre ese archivo y git commit para cerrar el conflicto.
+Error 3 — "Detached HEAD" al cambiar de rama:
+Al usar git checkout sobre un commit específico (en lugar de sobre una rama), Git me advirtió que estaba en estado "detached HEAD", es decir, ya no estaba parado sobre ninguna rama.
+Solución: Volví a una rama válida ejecutando git checkout nombre-rama (por ejemplo git checkout main o git checkout feature-aporte), y aprendí a verificar siempre con git branch en qué rama estoy antes de seguir trabajando.
+Error 4 — Remote (origin/upstream) mal configurado:
+Al intentar traer cambios del repositorio principal con git fetch upstream, obtuve un error porque nunca había agregado ese remote, ya que upstream no se configura automáticamente al clonar (solo origin sí).
+Solución: Lo agregué manualmente con git remote add upstream <url-del-repositorio-original> y confirmé que quedó bien configurado con git remote -v.
+
+Error 5 — Olvidar git add antes del commit:
+Ejecuté git commit -m "mensaje" y Git respondió que no había nada para commitear ("nothing to commit"), porque había olvidado preparar el archivo modificado con git add primero.
+Solución: Aprendí a revisar siempre git status antes de hacer commit, para confirmar que el archivo apareciera en la sección "Changes to be committed" (ya en staging) antes de ejecutar git commit.
+
+Error 6 — Base y Compare mal seleccionados en el Pull Request:
+Al crear un Pull Request, no verifiqué con cuidado los campos "base repository" y "head repository", y estuve a punto de dirigir el PR hacia una rama o repositorio incorrecto.
+Solución: Aprendí a revisar siempre antes de crear el PR que base apunte al repositorio principal (main) y compare apunte a mi rama de trabajo en mi Fork, siguiendo la regla: "compare = de dónde vienen los cambios, base = hacia dónde van".
+
