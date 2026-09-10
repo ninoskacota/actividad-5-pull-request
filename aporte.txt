@@ -3,21 +3,21 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Barreto Calizaya Edwin Rodrigo
+Carrera: Ingeneria Sistemas e Informatica
+Semestre: Sexto
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil: git clone 
+Explicación: Debido a que se puede clonar datos importantes de un equipo a otro sin la necesidad de equipos externos como memoria USB o medios alternos.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
-
+Respuesta: El origin es lo que apunta a mi propio Fork en GitHub, de donde puedo clonar y subir cambios de mi Fork.
+	   Upstream es el repositorio principal de donde proviene los datos originales, en este caso de la auxiliar, pero en que no se puede hacer cambios.
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Para solicitar o aprobar el trabajo realizado durante una actividad.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Error de autenticación con GitHub debiado a un fallo del Git Credential Manage
+Solución: Creacion de un Token en GitHub mediante las configuracion y Generate new token (classic)
