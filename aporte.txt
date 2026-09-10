@@ -3,21 +3,20 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: HUANCA MARCA SAUL ELVIN
+Carrera: ING. INFORMATICA
+Semestre: 3/4
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil: 
+Explicación:  
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: 
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
-
+Respuesta: 
+ 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error:  
