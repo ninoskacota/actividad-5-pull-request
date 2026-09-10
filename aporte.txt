@@ -1,11 +1,11 @@
-ACTUALIZACIÓN TECNOLÓGICA
+﻿ACTUALIZACIÓN TECNOLÓGICA
 ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre:Ramirez David Moises 
+Carrera: Ingenieria Informatica
+Semestre:Sexto
 
 APORTE SOBRE GIT Y GITHUB
 
