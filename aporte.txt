@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Kevin Andres Moreira Vincenti
+Carrera: Ing. Informatica
+Semestre: Cuarto
 
 APORTE SOBRE GIT Y GITHUB
 
