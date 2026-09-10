@@ -26,5 +26,6 @@ Sirve para proponer cambios desde una rama o fork hacia el repositorio original.
 comente y apruebe las modificaciones antes de integrarlas mediante un merge.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error:   No aparecía el botón Merge pull request en el Pull Request.
+Solución:  solo el propietario del repositorio original tiene permisos para realizar el merge. 
+Luego confirmé que el PR estaba aprobado y sin conflictos para que el responsable pudiera fusionarlo.
