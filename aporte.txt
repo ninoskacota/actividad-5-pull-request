@@ -31,7 +31,6 @@ Solución: Abrí el archivo señalado, identifiqué las marcas <<<<<<<, ======= 
 Error 3 — "Detached HEAD" al cambiar de rama:
 Al usar git checkout sobre un commit específico (en lugar de sobre una rama), Git me advirtió que estaba en estado "detached HEAD", es decir, ya no estaba parado sobre ninguna rama.
 Solución: Volví a una rama válida ejecutando git checkout nombre-rama (por ejemplo git checkout main o git checkout feature-aporte), y aprendí a verificar siempre con git branch en qué rama estoy antes de seguir trabajando.
-
 Error 4 — Remote (origin/upstream) mal configurado:
 Al intentar traer cambios del repositorio principal con git fetch upstream, obtuve un error porque nunca había agregado ese remote, ya que upstream no se configura automáticamente al clonar (solo origin sí).
 Solución: Lo agregué manualmente con git remote add upstream <url-del-repositorio-original> y confirmé que quedó bien configurado con git remote -v.
@@ -43,3 +42,4 @@ Solución: Aprendí a revisar siempre git status antes de hacer commit, para con
 Error 6 — Base y Compare mal seleccionados en el Pull Request:
 Al crear un Pull Request, no verifiqué con cuidado los campos "base repository" y "head repository", y estuve a punto de dirigir el PR hacia una rama o repositorio incorrecto.
 Solución: Aprendí a revisar siempre antes de crear el PR que base apunte al repositorio principal (main) y compare apunte a mi rama de trabajo en mi Fork, siguiendo la regla: "compare = de dónde vienen los cambios, base = hacia dónde van".
+
