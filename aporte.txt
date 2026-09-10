@@ -9,14 +9,21 @@ Semestre: Cuarto
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil:
-Explicación:
+1. Comando Git que considero más útil:         git commit -m "mensaje"  
+Explicación: 
+Permite guardar los cambios realizados en el proyecto con una descripción clara. 
+Es esencial para mantener un historial organizado y entender qué se modificó en cada etapa.
 
 2. Diferencia entre origin y upstream:
 Respuesta:
+origin es el repositorio remoto que pertenece al usuario (tu fork).
+upstream es el repositorio original del cual hiciste el fork.
+Se usa origin para subir tus cambios y upstream para sincronizar con el proyecto principal.
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
+Sirve para proponer cambios desde una rama o fork hacia el repositorio original. Permite que el responsable revise,
+comente y apruebe las modificaciones antes de integrarlas mediante un merge.
 
 4. Mencione un error que tuvo durante las prácticas:
 Error:
