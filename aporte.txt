@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Barreto Calizaya Edwin Rodrigo
+Carrera: Ingeneria Sistemas e Informatica
+Semestre: Sexto
 
 APORTE SOBRE GIT Y GITHUB
 
