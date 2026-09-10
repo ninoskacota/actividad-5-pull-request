@@ -4,21 +4,28 @@ ACTIVIDAD 5 - PULL REQUEST
 DATOS DEL ESTUDIANTE
 
 Nombre: HUANCA MARCA SAUL ELVIN
-Carrera: ING. INFORMATICA
+Carrera: ING. INFORMÁTICA
 Semestre: 3/4
 
 APORTE SOBRE GIT Y GITHUB
 
-1. Comando Git que considero más útil: git switch -c
-Explicación: cuando tenga mi rama recién podre trabajar
+1. Comando Git que considero más útil:  git switch -c
+
+Explicación: cuando tenga mi rama recién podré trabajar
 
 2. Diferencia entre origin y upstream:
-Respuesta: origin  colaborador 
-           upstream revisador o quien tiene el poder del repositorio
+
+Respuesta:   origin  colaborador 
+             upstream revisador o quien tiene el poder del repositorio
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:indica o envía una notificación de que el trabajo solicitado ya fue terminado y se estaría solicitando una revisión para ser aprobada o corregida
+
+Respuesta:   indica o envía una notificación de que el trabajo solicitado ya fue  
+             terminado y se estaría solicitando una revisión para ser aprobada o corregida
  
 4. Mencione un error que tuvo durante las prácticas:
-Error: problemas de conflictos
-solución: pues allí mismo tenia la opción de solucionarlo y me indicaba que es lo que ocasionaba el conflicto y había que eliminarlo 
+
+Error:       problemas de conflictos
+
+solución:   pues allí mismo tenía la opción de solucionarlo y me indicaba qué era lo que ocasionaba
+            el conflicto y había que eliminarlo 
