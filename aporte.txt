@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre:cristhofer dylan flores mamani
+Carrera:sistemas
+Semestre:4
 
 APORTE SOBRE GIT Y GITHUB
 
