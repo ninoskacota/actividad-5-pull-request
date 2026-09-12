@@ -17,8 +17,8 @@ Respuesta: Es el remoto que se crea automáticamente cuando clonas un repositori
 Es un remoto que tú agregas manualmente (no viene por defecto) y que apunta al repositorio original, el de la persona/profesor dueño del proyecto
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: sirve para proponer que los cambios que hiciste en tu rama se incorporen a la rama main de otro repo
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: me equivoque en los comandos 
+Solución: escribir bien los comandos
