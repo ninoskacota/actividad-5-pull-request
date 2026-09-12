@@ -10,10 +10,11 @@ Semestre:4
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+Explicación: git clone pq clona el repo
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: Es el remoto que se crea automáticamente cuando clonas un repositorio.
+Es un remoto que tú agregas manualmente (no viene por defecto) y que apunta al repositorio original, el de la persona/profesor dueño del proyecto
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
