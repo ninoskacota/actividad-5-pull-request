@@ -3,9 +3,9 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Crisleydi Libertad Lopez Quiroga
+Carrera: Ingeniería de Sistemas
+Semestre: 5to
 
 APORTE SOBRE GIT Y GITHUB
 
