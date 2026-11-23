@@ -3,21 +3,22 @@ ACTIVIDAD 5 - PULL REQUEST
 
 DATOS DEL ESTUDIANTE
 
-Nombre:
-Carrera:
-Semestre:
+Nombre: Crisleydi Libertad Lopez Quiroga
+Carrera: Ingeniería de Sistemas
+Semestre: 5to
 
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+git status
+Explicación: Muestra el estado del repositorio: qué archivos cambiaron, cuáles están preparados para el commit y en qué rama estoy. Lo uso antes de cada add y commit para no equivocarme.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: origin es mi fork en GitHub, es decir, mi copia personal donde publico mis cambios. upstream es el repositorio principal de la auxiliar, del que hice el fork, y lo uso para consultar las novedades.
 
 3. ¿Para qué sirve un Pull Request?
-Respuesta:
+Respuesta: Sirve para proponer que los cambios de una rama de mi fork sean revisados y, si están correctos, incorporados a la rama main del repositorio principal. Crearlo no significa que ya fueron aceptados, solo inicia la revisión.
 
 4. Mencione un error que tuvo durante las prácticas:
-Error:
-Solución:
+Error: Al hacer git push me salió "rejected" porque mi fork ya tenía una rama feature-perfil con commits que no tenía en mi computadora. También configuré upstream apuntando a mi propio fork en lugar del repositorio de la auxiliar.
+Solución: Revisé con git fetch y git log --graph --all qué tenía la rama remota, y corregí el remoto con git remote set-url upstream.
