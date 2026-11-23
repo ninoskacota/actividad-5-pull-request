@@ -10,10 +10,11 @@ Semestre: 5to
 APORTE SOBRE GIT Y GITHUB
 
 1. Comando Git que considero más útil:
-Explicación:
+git status
+Explicación: Muestra el estado del repositorio: qué archivos cambiaron, cuáles están preparados para el commit y en qué rama estoy. Lo uso antes de cada add y commit para no equivocarme.
 
 2. Diferencia entre origin y upstream:
-Respuesta:
+Respuesta: origin es mi fork en GitHub, es decir, mi copia personal donde publico mis cambios. upstream es el repositorio principal de la auxiliar, del que hice el fork, y lo uso para consultar las novedades.
 
 3. ¿Para qué sirve un Pull Request?
 Respuesta:
